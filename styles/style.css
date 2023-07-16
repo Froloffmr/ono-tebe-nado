@@ -10,7 +10,7 @@
   grid-template-columns: repeat(3, 1fr);
   margin: 93px 49px 93px 51px;
 }
-.header img {
+.header__logo {
   width: 148px;
   height: 105px;
   align-self: start;
