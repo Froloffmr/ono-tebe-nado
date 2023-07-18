@@ -11,12 +11,11 @@
   margin: 93px 49px 81px 51px;
 }
 .header__logo {
- width: 30%;
-flex-shrink: 0;
+  width: 30%;
+  flex-shrink: 0;
   align-self: flex-start;
   justify-self: center;
   border-bottom-style: none;
-
 }
 .header__menu {
   display: flex;
@@ -35,14 +34,12 @@ flex-shrink: 0;
   padding-bottom: 12px;
   padding-right: 2px;
 }
-.header__link__list_fonts{
+.header__link__list_fonts {
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24.3px;
-
-
 }
 .cover {
   height: 757px;
@@ -62,8 +59,8 @@ flex-shrink: 0;
 .cover__title {
   display: flex;
   flex-direction: column;
-  justify-content:center;
- gap: 7px;
+  justify-content: center;
+  gap: 7px;
   color: #fff;
   font-size: 100px;
   font-style: normal;
@@ -95,9 +92,8 @@ flex-shrink: 0;
   padding-left: 30px;
   padding-right: 30px;
 }
-.no-letter-spacing{
+.no-letter-spacing {
   margin-right: -30px;
-
 }
 .cover__description {
   display: flex;
@@ -114,7 +110,7 @@ flex-shrink: 0;
 .cover__description__text {
   display: flex;
   margin-left: 424px;
-  margin-top:12px;
+  margin-top: 12px;
   z-index: 1;
   color: #fff;
   font-family: Raleway;
@@ -147,7 +143,7 @@ flex-shrink: 0;
   margin: 50px 50px 0px 50px;
 }
 .lots__heading {
- padding: 130px 0px 27px 40px;
+  padding: 130px 0px 27px 40px;
   display: flex;
   flex-direction: row;
   color: #000;
@@ -200,23 +196,23 @@ flex-shrink: 0;
 }
 .lots__look-more-link {
   color: #000;
-font-family: Raleway;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-display: inline-block;
-margin-left: 40px;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+  margin-left: 40px;
 }
 .card__title {
-  color: #FFF;
-font-family: Raleway;
-font-size: 22px;
-font-style: normal;
-font-weight: 700;
-line-height: 120%;
-text-decoration-line: underline;
-text-transform: uppercase;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
   z-index: 2;
   padding: 50px 38px 0px 40px;
 }
@@ -264,8 +260,7 @@ text-transform: uppercase;
   display: grid;
   grid-template-columns: 430px 1fr;
   gap: 25px;
-  padding:130px 50px 50px 50px;
-
+  padding: 130px 50px 50px 50px;
 }
 .about__text {
   display: flex;
@@ -282,7 +277,7 @@ text-transform: uppercase;
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
- padding: 90px 50px 90px 50px;
+  padding: 90px 50px 90px 50px;
 }
 .footer__link__list {
   align-self: start;
@@ -303,5 +298,4 @@ text-transform: uppercase;
   gap: 46px;
   width: 241px;
   height: 50px;
-  
 }
