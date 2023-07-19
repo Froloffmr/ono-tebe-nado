@@ -46,7 +46,7 @@
   border-bottom: none;
 }
 
-.cover { 
+.cover {
   width: 1440px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
