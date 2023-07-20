@@ -46,7 +46,7 @@
 }
 
 .cover {
-  width: 1440px;
+  width: 100%;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position:center;
@@ -164,6 +164,7 @@
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   list-style-type: none;
   gap: 25px;
@@ -172,8 +173,9 @@
 
 .lots__card-list-item {
   display: flex;
+  flex-grow: 1;
   height: 100%;
-  max-width: 430px;
+  width: 430px;
 }
 
 .card {
