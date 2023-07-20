@@ -170,9 +170,6 @@
   list-style-type: none;
   gap: 25px;
   height: 100%;
-  max-height: 480px;
-  flex-wrap: wrap;
-  flex-grow: 1;
 }
 
 .lots__card-list-item {
